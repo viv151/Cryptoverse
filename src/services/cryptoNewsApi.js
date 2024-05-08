@@ -1,12 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { Header } from "antd/es/layout/layout";
 
 const cryptoNewsHeaders = {
 
     'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_NEWS_KEY,
     'X-RapidAPI-Host': process.env.REACT_APP_NEWS_RAPIDAPI_HOST,
 }
-
 
 const createRequest = (url) => ({url, headers: cryptoNewsHeaders});
 
