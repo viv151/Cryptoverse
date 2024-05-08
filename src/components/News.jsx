@@ -15,8 +15,6 @@ const News = ({simplified}) => {
   const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory});
 
   if(!cryptoNews?.items) return <Loader />;
-  // console.log(cryptoNews);
-  // console.log(cryptoNews.items[0].images.thumbnailProxied);
 
 
   return (
