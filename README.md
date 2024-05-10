@@ -16,7 +16,7 @@ A website that show all the details related to cryptocurrencies.
 • Coin Ranking API from Rapid API that fetches all the data realted to cryptocurrencies like Market Cap, Price, etc..  
 • Goole News API from Rapid API that shows all the news data. Here it was specified the cryptocurrency keyword to fetch the specific data   
 
-##Tech stack used
+## Tech stack used
 • React.js
 • Ant Design React Framework
 • Redux for global state management
