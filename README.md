@@ -17,9 +17,9 @@ A website that show all the details related to cryptocurrencies.
 • Goole News API from Rapid API that shows all the news data. Here it was specified the cryptocurrency keyword to fetch the specific data   
 
 ## Tech stack used
-• React.js
-• Ant Design React Framework
-• Redux for global state management
+• React.js  
+• Ant Design React Framework  
+• Redux for global state management  
 
 
 ## Getting Started  
